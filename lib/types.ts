@@ -1,0 +1,1 @@
+export type Asset = { id: string; name: string; category: string; manufacturer: string | null; model: string | null; year: number | null; serial_number: string | null; description: string | null; location: string | null; status: string; public_slug: string | null; created_at: string; owner_id?: string }
